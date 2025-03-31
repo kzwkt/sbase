@@ -4,6 +4,7 @@ cp config.mk  sbase/
 cp Makefile  sbase/
 cd sbase
 make getconf.h
+make libutf.a
 make DESTDIR="$PWD/pkg" sbase-box-install
 tar -czvf sbase-static.tar.gz -C "$PWD/pkg" .
 

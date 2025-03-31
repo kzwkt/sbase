@@ -12,7 +12,7 @@ jobs:
       - name: Build sbase
         run: |
             bash build.sh
-            echo "FILE1=$(realpath *.tar.gz)" >> $GITHUB_ENV
+            echo "FILE1=$(realpath sbase/*.tar.gz)" >> $GITHUB_ENV
 
       - name: Release
         uses: softprops/action-gh-release@v2

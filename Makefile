@@ -102,14 +102,11 @@ BIN =\
 	cut\
 	date\
 	dirname\
-	du\
 	echo\
 	env\
-	find\
 	flock\
 	grep\
 	head\
-	hostname\
 	kill\
 	ln\
 	ls\
@@ -122,41 +119,24 @@ BIN =\
 	nice\
 	nohup\
 	printenv\
-	printf\
 	pwd\
 	readlink\
 	renice\
 	rm\
 	rmdir\
-	sed\
 	seq\
 	setsid\
-	sha1sum\
-	sha224sum\
-	sha256sum\
-	sha384sum\
-	sha512sum\
-	sha512-224sum\
-	sha512-256sum\
 	sleep\
-	sort\
 	split\
 	sync\
-	tail\
-	tar\
 	tee\
-	test\
 	time\
 	touch\
-	tr\
-	tsort\
 	tty\
 	uname\
-	uniq\
 	unlink\
 	wc\
 	which\
-	xargs
 
 OBJ = $(LIBUTFOBJ) $(LIBUTILOBJ)
 

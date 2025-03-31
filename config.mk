@@ -11,7 +11,7 @@ CC = musl-gcc
 RANLIB = ranlib
 
 # -lrt might be needed on some systems
-CFLAGS =  -Os -fPIE -pipe -ffunction-sections -fdata-sections
+CFLAGS =  -Os -fPIE -pipe 
 LDFLAGS = -s -static -static-pie
 
 

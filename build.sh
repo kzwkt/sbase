@@ -1,6 +1,7 @@
 sudo apt install musl-tools gcc -y
 git clone --depth=1 https://git.suckless.org/sbase/
 cp config.mk  sbase/
+make
 make dist
 
 # make all install uninstall dist sbase-box-install sbase-box-uninstall clean

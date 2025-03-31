@@ -15,7 +15,7 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           tag_name: sbase
-          files:
+          files: |
             ${{ env.FILE1 }}
             ${{ env.FILE2 }}
         env: 

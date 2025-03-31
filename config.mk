@@ -7,8 +7,8 @@ MANPREFIX = $(PREFIX)/share/man
 
 # tools
 CC = musl-gcc
-#AR = ar
-#RANLIB = ranlib
+AR = ar
+RANLIB = ranlib
 
 # -lrt might be needed on some systems
 CFLAGS =  -Os -fPIE -pipe 

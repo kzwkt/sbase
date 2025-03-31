@@ -1,4 +1,4 @@
-sudo apt install musl-tools -y
+sudo apt install musl-tools gcc-x86-64-linux-gnu -y
 git clone --depth=1 https://git.suckless.org/sbase/
 cp config.mk  sbase/
 cd sbase

@@ -5,8 +5,7 @@ git clone --depth=1 https://git.suckless.org/sbase/
 cp config.mk  sbase/
 cp Makefile  sbase/
 cd sbase
-make getconf.h
-make libutf.a
+make all
 make DESTDIR="$PWD/pkg" sbase-box-install
 tar -czvf sbase-static.tar.gz -C "$PWD/pkg" .
 

@@ -93,42 +93,25 @@ LIB = libutf.a libutil.a
 
 BIN =\
 	basename\
-	cal\
 	cat\
 	chgrp\
 	chmod\
 	chown\
 	chroot\
-	cksum\
-	cmp\
-	cols\
-	comm\
 	cp\
-	cron\
 	cut\
 	date\
-	dd\
 	dirname\
 	du\
 	echo\
-	ed\
 	env\
-	expand\
-	expr\
-	false\
 	find\
 	flock\
-	fold\
-	getconf\
 	grep\
 	head\
 	hostname\
-	join\
 	kill\
-	link\
 	ln\
-	logger\
-	logname\
 	ls\
 	md5sum\
 	mkdir\
@@ -137,17 +120,12 @@ BIN =\
 	mktemp\
 	mv\
 	nice\
-	nl\
 	nohup\
-	od\
-	paste\
-	pathchk\
 	printenv\
 	printf\
 	pwd\
 	readlink\
 	renice\
-	rev\
 	rm\
 	rmdir\
 	sed\
@@ -163,32 +141,22 @@ BIN =\
 	sleep\
 	sort\
 	split\
-	sponge\
-	strings\
 	sync\
 	tail\
 	tar\
 	tee\
 	test\
-	tftp\
 	time\
 	touch\
 	tr\
-	true\
 	tsort\
 	tty\
 	uname\
-	unexpand\
 	uniq\
 	unlink\
-	uudecode\
-	uuencode\
 	wc\
 	which\
-	whoami\
-	xargs\
-	xinstall\
-	yes
+	xargs
 
 OBJ = $(LIBUTFOBJ) $(LIBUTILOBJ)
 
